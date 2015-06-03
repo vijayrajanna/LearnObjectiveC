@@ -68,7 +68,7 @@
 @end
 
 
-int main(int argc, const char * argv[])
+int maindummy_2(int argc, const char * argv[])
 {
 
     NSLog(@"Base class Person Object");

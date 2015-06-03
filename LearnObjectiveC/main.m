@@ -80,7 +80,7 @@
 
 @end
 
-int maindummy()
+int maindummy_1()
 {
     /* my first program in Objective-C */
  
