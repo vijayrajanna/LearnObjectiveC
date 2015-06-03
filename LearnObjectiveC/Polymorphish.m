@@ -16,6 +16,7 @@
 
 - (void)printArea;
 - (void)calculateArea;
+
 @end
 
 @implementation Shape
@@ -85,7 +86,7 @@
 @end
 
 
-int main(int argc, const char * argv[])
+int maindummy_3(int argc, const char * argv[])
 {
     Shape *square = [[Square alloc]initWithSide:10.0];
     [square calculateArea];
