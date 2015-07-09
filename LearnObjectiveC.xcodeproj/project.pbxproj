@@ -31,6 +31,7 @@
 		4EB5C5CD1B1F51D200F82388 /* DerivedClsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DerivedClsExample.m; sourceTree = "<group>"; };
 		4EB5C5CF1B1F5B9200F82388 /* Polymorphish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polymorphish.m; sourceTree = "<group>"; };
 		4EB5C5D11B1F6EAD00F82388 /* Encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encapsulation.m; sourceTree = "<group>"; };
+		4EB5C6371B20C8CF00F82388 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				4EB5C5CD1B1F51D200F82388 /* DerivedClsExample.m */,
 				4EB5C5CF1B1F5B9200F82388 /* Polymorphish.m */,
 				4EB5C5D11B1F6EAD00F82388 /* Encapsulation.m */,
+				4EB5C6371B20C8CF00F82388 /* main.h */,
 			);
 			path = LearnObjectiveC;
 			sourceTree = "<group>";

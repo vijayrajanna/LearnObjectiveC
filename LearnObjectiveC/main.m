@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "main.h"
 //Declaration of the interface
 
 @interface SampleClass:NSObject
@@ -45,21 +45,12 @@
 }
 @end
 
-// Declaration of Box interface
-@interface Box : NSObject
-{
-//Data member declaration
-    double length;
-    double breadth;
-    double height;
-}
-// Declaration of interface to height instance variable
-@property(nonatomic, readwrite) double height ; //property declaration
+@interface Box()
 
-// Member function declaration
--(double) calculateVolume;
+@property(nonatomic, readwrite) double height ;
 
 @end
+
 
 @implementation Box
 
@@ -70,6 +61,8 @@
     self = [super init];
     length = 1.0;
     breadth = 2.0;
+    height = 89.7;
+    heightt = 9 ;
     return self;
 }
 
@@ -80,7 +73,8 @@
 
 @end
 
-int maindummy_1()
+
+int main()
 {
     /* my first program in Objective-C */
  
@@ -91,6 +85,7 @@ int maindummy_1()
     const int  LENGTH = 10;
     const int  WIDTH  = 5;
     const char NEWLINE = '\n';
+    
     int area;
     int p = 70 ;
     int t = [sampleClass multiplyNumbers:2:3];
@@ -122,8 +117,8 @@ int maindummy_1()
     double result = [boxObject calculateVolume];
     NSLog(@"The output of calculate resutl is %f", result);
     boxObject.height = 20.0;
+
     NSLog(@"The value of result*lenth is %f", result*(boxObject.height));
     
     return 0;
-    
 }

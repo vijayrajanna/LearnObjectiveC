@@ -43,7 +43,7 @@
 
 @end
 
-int main(int argc, const char * argv[])
+int maindummy5(int argc, const char * argv[])
 {
 
     Adder *adder = [[Adder alloc]initWithInitialNumber:10];
